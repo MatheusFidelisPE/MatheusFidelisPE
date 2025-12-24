@@ -1,0 +1,66 @@
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 8%);
+}
+
+#perfil-img {
+    border-radius: 50%;
+    width: 180px;
+}
+.card {
+    margin: 80px auto;
+    width: 90%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 0.6rem;
+}
+.card-content{
+    text-align: center;
+    padding: 20px;
+}
+
+p, a, h1, h3 {
+    font-family: 'Inter', sans-serif;    
+}
+#name {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+
+}
+#place{
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.social-link{
+    background-color: hsl(0, 0%, 20%);
+    height: 45px;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: 10px;
+}
+.social-link a{
+    font-weight: 700;
+}
+.social-link {
+    font-weight: 700;
+    font-size: 15px;
+}
+#resume {
+    color: antiquewhite;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 360px; /* tablet */
+  }
+}
+
